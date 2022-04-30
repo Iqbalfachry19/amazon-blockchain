@@ -13,6 +13,7 @@ const history = () => {
     pageTitle: `text-2xl font-bold text-left mt-[50px] mb-[30px]`,
     transactions: `flex gap-[50px] flex-row flex-wrap`,
   };
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { ownedItems } = useContext(AmazonContext);
   // useEffect(() => {
   //   console.log(ownedItems)
